@@ -1,0 +1,153 @@
+/* #region IDs */
+#brochure {
+    display: flex;
+    /* margin-top: 80px; */
+    padding-top: 5vh;
+    padding-left: 8.75vw;
+    padding-right: 8.75vw;
+    padding-bottom: 5vh;
+    background-color: black;
+    /* border-top: 80px;
+    border-color: black; */
+}
+
+#brochure > div {
+    width: 33%; 
+    text-align: center;
+    background-color: white;
+}
+/* #endregion IDs */
+
+/* #region Image Styling */
+.treePic {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height : auto;
+    max-height: 95%;
+    max-width: 95%;
+}
+
+.flagPic {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height : auto;
+    max-height: 95%;
+    max-width: 95%;
+}
+
+.tablePic {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height : auto;
+    max-height: 95%;
+    max-width: 95%;
+}
+
+.vitLogo {
+    max-width: 50%;
+}
+/* #endregion Image Styling */
+
+/* #region Cell Styling */
+.cell1 {
+    margin-top: 100px;
+    font-size: 24px;
+    /* text-align: center; */
+    min-height: 150px;
+    display: inline-block;
+    vertical-align: bottom;
+    flex: 1;
+}
+
+.cell2 {
+    flex: 1;
+}
+
+.cell3 {
+    height: 70px;
+    flex: 1;
+}
+
+.cell4 {
+    flex: 1;
+}
+
+.cell5 {
+    flex: 1;
+}
+
+.cell6 {
+    flex: 1;
+}
+
+.cell7 {
+    flex: 1;
+}
+
+.cell8 {
+    flex: 1;
+}
+
+.cell9 {
+    flex: 1;
+}
+/* #endregion Cell Styling */
+
+/* #region Colum Styling */
+.col1 {
+    position: relative;
+    border-right: 7px solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.col2 {
+    border-right: 7px solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.col3 {
+    display: flex;
+    flex-direction: column;
+}
+/* #endregion Colum Styling */
+
+
+.titleHeading {
+    text-decoration: underline;
+    display: inline-block;
+}
+
+h2 {
+    border-top: black;
+    border-bottom: black;
+}
+
+
+/* #bottomPadding {
+    background-color: black;
+    width: 100vw;
+    height: 80px;
+    position: relative;
+    margin-left: -50vw;
+    margin-top: -2vw;
+    left: 50%;
+} */
+
+/* #fullPage {
+    height: 100%;
+} */
+
+/* #topPadding {
+    background-color: black;
+    width: 100vw;
+    height: 80px;
+    position: relative;
+    margin-left: -50vw;
+    margin-top: -2vw;
+    left: 50%;
+} */
